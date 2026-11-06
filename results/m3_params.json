@@ -1,0 +1,7 @@
+{
+  "c_far": 0.0,
+  "pk_beta": 0.0,
+  "ml_sibling": 0.0,
+  "calibrated_on": "calibration fold, 317 chains, mean MCC",
+  "sweep": "pk_beta in {-1,-0.5,-0.25,0,0.25,0.5,1,2,3}; results/calib_sweep.jsonl"
+}

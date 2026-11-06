@@ -1,0 +1,11 @@
+# Raw downloads (BGSU / RCSB / PDBe / FR3D), 115 MB; rebuilt by scripts/build_pdb_dataset.py
+raw/
+# Frozen baseline: its own git repository (github.com/Nox-eturnus/WISER-Moderna)
+WISER-Moderna/
+# Python and tool caches
+__pycache__/
+*.pyc
+.pytest_cache/
+.wheels/
+# Run logs (results themselves are tracked)
+*.log

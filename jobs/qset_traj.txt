@@ -1,0 +1,3 @@
+# Pauli-trajectory noise on every 4th Q-set chain (6 trajectories per seed)
+skqd traj_x --gamma 0.5 --dt 0.3 --r 10 --trajectories 6 --noise t_a2a_1e-3:a2a:0.001:0.01:traj;t_a2a_3e-3:a2a:0.003:0.01:traj;t_hh_1e-3:hh:0.001:0.01:traj;t_hh_3e-3:hh:0.003:0.01:traj
+skqd traj_cx --drive cx --gamma 0.5 --dt 0.3 --r 10 --trajectories 6 --noise t_a2a_1e-3:a2a:0.001:0.01:traj;t_hh_1e-3:hh:0.001:0.01:traj

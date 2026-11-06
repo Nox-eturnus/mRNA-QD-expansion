@@ -1,0 +1,8 @@
+# Final Q-set run: settings locked on Q-dev (lowest best-sample energy gap at 1000 shots).
+skqd g0.5_dt0.3_r10 --gamma 0.5 --dt 0.3 --r 10
+skqd g0_dt0.3_r10 --gamma 0.0 --dt 0.3 --r 10
+lrqaoa p4_dg2.0_db0.4 --p 4 --d-gamma 2.0 --d-beta 0.4
+random uniform
+sa sweeps50 --sweeps 50
+sa sweeps5 --sweeps 5
+sa sweeps1 --sweeps 1

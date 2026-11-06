@@ -1,0 +1,13 @@
+# ViennaRNA (Python module RNA) is installed from bioconda, see README
+numpy>=2.0
+scipy>=1.13
+numba>=0.60
+matplotlib>=3.9
+ortools>=9.10
+qiskit>=2.0
+qiskit-aer>=0.17
+qiskit-addon-sqd>=0.10
+qiskit-ibm-runtime>=0.40
+biopython>=1.84
+requests>=2.31
+pytest>=8.0

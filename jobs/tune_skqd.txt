@@ -1,0 +1,13 @@
+# SKQD tuning grid on Q-dev (r = 10, psi0 = empty structure)
+skqd g0.25_dt0.1_r10 --gamma 0.25 --dt 0.1 --r 10
+skqd g0.25_dt0.3_r10 --gamma 0.25 --dt 0.3 --r 10
+skqd g0.25_dt1.0_r10 --gamma 0.25 --dt 1.0 --r 10
+skqd g0.5_dt0.1_r10 --gamma 0.5 --dt 0.1 --r 10
+skqd g0.5_dt0.3_r10 --gamma 0.5 --dt 0.3 --r 10
+skqd g0.5_dt1.0_r10 --gamma 0.5 --dt 1.0 --r 10
+skqd g1.0_dt0.1_r10 --gamma 1.0 --dt 0.1 --r 10
+skqd g1.0_dt0.3_r10 --gamma 1.0 --dt 0.3 --r 10
+skqd g1.0_dt1.0_r10 --gamma 1.0 --dt 1.0 --r 10
+skqd g2.0_dt0.1_r10 --gamma 2.0 --dt 0.1 --r 10
+skqd g2.0_dt0.3_r10 --gamma 2.0 --dt 0.3 --r 10
+skqd g2.0_dt1.0_r10 --gamma 2.0 --dt 1.0 --r 10

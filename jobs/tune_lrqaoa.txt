@@ -1,0 +1,27 @@
+# LR-QAOA tuning grid on Q-dev
+lrqaoa p4_dg0.25_db0.4 --p 4 --d-gamma 0.25 --d-beta 0.4
+lrqaoa p4_dg0.25_db0.8 --p 4 --d-gamma 0.25 --d-beta 0.8
+lrqaoa p4_dg0.5_db0.4 --p 4 --d-gamma 0.5 --d-beta 0.4
+lrqaoa p4_dg0.5_db0.8 --p 4 --d-gamma 0.5 --d-beta 0.8
+lrqaoa p4_dg1.0_db0.4 --p 4 --d-gamma 1.0 --d-beta 0.4
+lrqaoa p4_dg1.0_db0.8 --p 4 --d-gamma 1.0 --d-beta 0.8
+lrqaoa p4_dg2.0_db0.4 --p 4 --d-gamma 2.0 --d-beta 0.4
+lrqaoa p4_dg2.0_db0.8 --p 4 --d-gamma 2.0 --d-beta 0.8
+lrqaoa p8_dg0.25_db0.4 --p 8 --d-gamma 0.25 --d-beta 0.4
+lrqaoa p8_dg0.25_db0.8 --p 8 --d-gamma 0.25 --d-beta 0.8
+lrqaoa p8_dg0.5_db0.4 --p 8 --d-gamma 0.5 --d-beta 0.4
+lrqaoa p8_dg0.5_db0.8 --p 8 --d-gamma 0.5 --d-beta 0.8
+lrqaoa p8_dg1.0_db0.4 --p 8 --d-gamma 1.0 --d-beta 0.4
+lrqaoa p8_dg1.0_db0.8 --p 8 --d-gamma 1.0 --d-beta 0.8
+lrqaoa p8_dg2.0_db0.4 --p 8 --d-gamma 2.0 --d-beta 0.4
+lrqaoa p8_dg2.0_db0.8 --p 8 --d-gamma 2.0 --d-beta 0.8
+lrqaoa p16_dg0.25_db0.4 --p 16 --d-gamma 0.25 --d-beta 0.4
+lrqaoa p16_dg0.25_db0.8 --p 16 --d-gamma 0.25 --d-beta 0.8
+lrqaoa p16_dg0.5_db0.4 --p 16 --d-gamma 0.5 --d-beta 0.4
+lrqaoa p16_dg0.5_db0.8 --p 16 --d-gamma 0.5 --d-beta 0.8
+lrqaoa p16_dg1.0_db0.4 --p 16 --d-gamma 1.0 --d-beta 0.4
+lrqaoa p16_dg1.0_db0.8 --p 16 --d-gamma 1.0 --d-beta 0.8
+lrqaoa p16_dg2.0_db0.4 --p 16 --d-gamma 2.0 --d-beta 0.4
+lrqaoa p16_dg2.0_db0.8 --p 16 --d-gamma 2.0 --d-beta 0.8
+random uniform
+sa sweeps50 --sweeps 50

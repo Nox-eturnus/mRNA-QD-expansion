@@ -1,0 +1,8 @@
+# Scaling: 26-qubit budget, Q-set chains with >= 26 candidate stems
+skqd s26_g0.5_dt0.3_r10 --gamma 0.5 --dt 0.3 --r 10
+skqd s26_cx_g0.5_dt0.3_r10 --drive cx --gamma 0.5 --dt 0.3 --r 10
+lrqaoa s26_p4_dg2.0_db0.4 --p 4 --d-gamma 2.0 --d-beta 0.4
+random s26_uniform
+sa s26_sweeps1 --sweeps 1
+sa s26_sweeps5 --sweeps 5
+sa s26_sweeps50 --sweeps 50

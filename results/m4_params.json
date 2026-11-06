@@ -1,0 +1,10 @@
+{
+  "c_far": 0.0,
+  "pk_beta": 0.0,
+  "ml_sibling": 0.0,
+  "pk_mode": "loop",
+  "pk_init": 12.0,
+  "pk_unp": 0.1,
+  "calibrated_on": "calibration fold, 317 chains, mean MCC",
+  "grid": "(pk_init, pk_unp) in {(6,.1),(9,.1),(12,.1),(12,.25),(15,.1)}: 0.301/0.747/0.813/0.811/0.806; M3 0.805; results/calib_pk.jsonl"
+}

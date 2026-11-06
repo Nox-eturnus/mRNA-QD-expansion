@@ -1,0 +1,2 @@
+# Baseline VQE (two-local RY/CZ, reps 1, COBYLA 300) on every 4th Q-set chain
+vqe vqe_reps1 --reps 1 --maxiter 300 --noise w_a2a_1e-3:a2a:0.001:0.01;w_hh_3e-3:hh:0.003:0.01

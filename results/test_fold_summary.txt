@@ -1,0 +1,41 @@
+475 chains common to ['M0', 'M1', 'M3', 'M4_topk', 'FOX22']
+
+[all] n=475
+  ViennaRNA MFE  MCC 0.793 [0.766,0.817]
+  ceiling (trunc) MCC 0.959 [0.949,0.967]
+  pKiss          MCC 0.771 [0.744,0.796]
+  M0             MCC 0.713 [0.683,0.740]  sens 0.726 ppv 0.717  qubits~60  optimal 80%  d(vs M3) -0.062 [-0.083,-0.041]
+  M1             MCC 0.659 [0.625,0.690]  sens 0.680 ppv 0.653  qubits~136  optimal 63%  d(vs M3) -0.116 [-0.140,-0.094]
+  M3             MCC 0.775 [0.748,0.800]  sens 0.818 ppv 0.747  qubits~136  optimal 85%
+  M4_topk        MCC 0.779 [0.753,0.804]  sens 0.813 ppv 0.759  qubits~136  optimal 84%  d(vs M3) +0.004 [-0.007,+0.015]
+  FOX22          MCC 0.625 [0.595,0.656]  sens 0.624 ppv 0.649  qubits~66  optimal 71%  d(vs M3) -0.150 [-0.175,-0.125]
+
+[nested] n=372
+  ViennaRNA MFE  MCC 0.832 [0.804,0.859]
+  ceiling (trunc) MCC 0.962 [0.950,0.972]
+  pKiss          MCC 0.788 [0.757,0.818]
+  M0             MCC 0.714 [0.681,0.747]  sens 0.726 ppv 0.720  qubits~43  optimal 86%  d(vs M3) -0.082 [-0.105,-0.060]
+  M1             MCC 0.681 [0.644,0.717]  sens 0.700 ppv 0.677  qubits~95  optimal 73%  d(vs M3) -0.115 [-0.141,-0.090]
+  M3             MCC 0.796 [0.768,0.824]  sens 0.841 ppv 0.766  qubits~95  optimal 88%
+  M4_topk        MCC 0.806 [0.778,0.835]  sens 0.846 ppv 0.781  qubits~95  optimal 87%  d(vs M3) +0.011 [-0.002,+0.022]
+  FOX22          MCC 0.643 [0.609,0.675]  sens 0.645 ppv 0.664  qubits~49  optimal 80%  d(vs M3) -0.153 [-0.181,-0.126]
+
+[helical_pk] n=73
+  ViennaRNA MFE  MCC 0.620 [0.552,0.685]
+  ceiling (trunc) MCC 0.956 [0.941,0.968]
+  pKiss          MCC 0.743 [0.681,0.799]
+  M0             MCC 0.746 [0.680,0.805]  sens 0.757 ppv 0.745  qubits~182  optimal 68%  d(vs M3) +0.014 [-0.036,+0.063]
+  M1             MCC 0.622 [0.539,0.701]  sens 0.642 ppv 0.612  qubits~406  optimal 33%  d(vs M3) -0.110 [-0.180,-0.041]
+  M3             MCC 0.733 [0.667,0.799]  sens 0.757 ppv 0.717  qubits~406  optimal 81%
+  M4_topk        MCC 0.692 [0.623,0.759]  sens 0.693 ppv 0.704  qubits~406  optimal 81%  d(vs M3) -0.041 [-0.071,-0.014]
+  FOX22          MCC 0.575 [0.503,0.641]  sens 0.555 ppv 0.616  qubits~181  optimal 42%  d(vs M3) -0.157 [-0.221,-0.096]
+
+[tertiary_pk] n=30
+  ViennaRNA MFE  MCC 0.728 [0.651,0.802]
+  ceiling (trunc) MCC 0.924 [0.882,0.952]
+  pKiss          MCC 0.631 [0.554,0.715]
+  M0             MCC 0.622 [0.529,0.702]  sens 0.657 ppv 0.599  qubits~241  optimal 33%  d(vs M3) +0.004 [-0.085,+0.092]
+  M1             MCC 0.474 [0.387,0.562]  sens 0.514 ppv 0.449  qubits~533  optimal 7%  d(vs M3) -0.144 [-0.224,-0.064]
+  M3             MCC 0.618 [0.537,0.701]  sens 0.674 ppv 0.583  qubits~533  optimal 57%
+  M4_topk        MCC 0.646 [0.576,0.714]  sens 0.703 ppv 0.610  qubits~533  optimal 53%  d(vs M3) +0.028 [-0.010,+0.073]
+  FOX22          MCC 0.516 [0.442,0.583]  sens 0.526 ppv 0.529  qubits~251  optimal 20%  d(vs M3) -0.102 [-0.183,-0.019]

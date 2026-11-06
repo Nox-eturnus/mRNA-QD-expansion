@@ -1,0 +1,33 @@
+{
+  "nrlist_release": "current",
+  "nrlist_cutoff": "all",
+  "nrlist_file_sha256": "690e6954fb30d3b0c8257e5cdf949305569a1fbde57372b32cb5a0c04fbe2090",
+  "n_classes": 5250,
+  "n_single_chain": 3899,
+  "n_fetched": 1990,
+  "n_records": 1168,
+  "n_nested": 834,
+  "n_pseudoknotted": 334,
+  "filters": {
+    "min_len": 20,
+    "max_len": 150,
+    "max_unobserved": 0.05,
+    "max_nonstandard": 0.05,
+    "max_resolution": 4.0,
+    "nmr": "accepted (no resolution)",
+    "pair_rule": "FR3D cWW, AU/GC/GU, j-i>=4, same chain, model 1, no symop, conflicting cWW dropped"
+  },
+  "built": "2026-11-04 11:29:54",
+  "exclusion_counts": {
+    "multi_chain_representative": 1351,
+    "length": 1872,
+    "not_rna": 37,
+    "unobserved": 434,
+    "no_fr3d_annotation": 49,
+    "resolution": 249,
+    "nonstandard_residues": 25,
+    "no_canonical_pairs": 60,
+    "resname_mismatch": 3,
+    "method": 2
+  }
+}

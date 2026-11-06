@@ -1,0 +1,13 @@
+# Q-set additions (locked settings; constrained drive locked on Q-dev: G = 0.5, dt = 0.3)
+skqd cx_g0.5_dt0.3_r10 --drive cx --gamma 0.5 --dt 0.3 --r 10 --noise w_a2a_1e-3:a2a:0.001:0.01;w_a2a_3e-3:a2a:0.003:0.01;w_hh_1e-3:hh:0.001:0.01;w_hh_3e-3:hh:0.003:0.01
+skqd g0.5_dt0.3_r10_wn --gamma 0.5 --dt 0.3 --r 10 --noise w_a2a_1e-3:a2a:0.001:0.01;w_a2a_3e-3:a2a:0.003:0.01;w_hh_1e-3:hh:0.001:0.01;w_hh_3e-3:hh:0.003:0.01
+skqd warm_g0.5_dt0.3_r10 --warm --gamma 0.5 --dt 0.3 --r 10
+skqd warm_cx_g0.5_dt0.3_r10 --warm --drive cx --gamma 0.5 --dt 0.3 --r 10
+sa warm_sweeps1 --warm --sweeps 1
+sa warm_sweeps5 --warm --sweeps 5
+skqd sens_r5 --gamma 0.5 --dt 0.3 --r 5
+skqd sens_r20 --gamma 0.5 --dt 0.3 --r 20
+skqd sens_gd0.01 --gamma 0.5 --dt 0.3 --r 10 --gamma-d 0.01
+skqd sens_gd0.5 --gamma 0.5 --dt 0.3 --r 10 --gamma-d 0.5
+skqd sens_gd1.0 --gamma 0.5 --dt 0.3 --r 10 --gamma-d 1.0
+lrqaoa p4_dg2.0_db0.4_wn --p 4 --d-gamma 2.0 --d-beta 0.4 --noise w_a2a_1e-3:a2a:0.001:0.01;w_hh_1e-3:hh:0.001:0.01

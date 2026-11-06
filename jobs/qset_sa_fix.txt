@@ -1,0 +1,4 @@
+# SA controls rerun after the 1-sweep schedule fix (single sweep at t_lo, a greedy descent).
+# Old rows (single hot sweep at t_hi) were relabelled sweeps1_hot / warm_sweeps1_hot.
+sa sweeps1 --sweeps 1
+sa warm_sweeps1 --warm --sweeps 1
